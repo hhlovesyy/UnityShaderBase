@@ -1,0 +1,87 @@
+Using pre-set license
+Built from '2021.1/china_unity/release' branch; Version is '2021.1.5f1c1 (6e5a93ddf9be) revision 7232147'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19045.2604; Version 2009; 64bit' Language: 'zh' Physical Memory: 32125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity2021\Unity 2021.1.5f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64673
+Successfully changed project path to: E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
+E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 105.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
+[Subsystems] Discovering subsystems at path D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1601
+Initialize mono
+Mono path[0] = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001703 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.972 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 2.197000 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.680000 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Blinn_Phong.shader
+  artifactKey: Guid(800a794e4eea1a745bd42bfa785ef445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Blinn_Phong.shader using Guid(800a794e4eea1a745bd42bfa785ef445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3fecc4fa6c9ca2196166b008673ebc') in 0.078495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.582039 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_PixelLevel.shader
+  artifactKey: Guid(86374aff067233e4dabaac3f4afaa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_PixelLevel.shader using Guid(86374aff067233e4dabaac3f4afaa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332833ea63fd4c50ef6f2c383ebaacac') in 0.005663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 421.611247 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_VertexLevel.shader
+  artifactKey: Guid(858a6b93008b6ec4b94dad8af9b93282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_VertexLevel.shader using Guid(858a6b93008b6ec4b94dad8af9b93282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e836f0258ab4ff0c798ef5b130107') in 0.004309 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
