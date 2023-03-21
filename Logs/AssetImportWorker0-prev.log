@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/china_unity/release' branch; Version is '2021.1.5f1c1 (6e5a93ddf9be) revision 7232147'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home China; OS build 19045.2604; Version 2009; 64bit' Language: 'zh' Physical Memory: 32125 MB
+OS: 'Windows 10 Home China; OS build 19045.2728; Version 2009; 64bit' Language: 'zh' Physical Memory: 32125 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64673
+62319
 Successfully changed project path to: E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
 E:/mihoyo/rendering/UnityBaseShaderLearn/LearnUnityBaseShaderNew
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 105.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1c1 (6e5a93ddf9be)
 [Subsystems] Discovering subsystems at path D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,53 +35,131 @@ Initialize mono
 Mono path[0] = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity2021/Unity 2021.1.5f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001703 seconds.
+Registered in 0.001169 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 109.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.972 seconds
+- Completed reload, in  1.362 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003730 seconds.
+Registered in 0.002753 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.375 seconds
+- Completed reload, in  0.975 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2678 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.1 MB.
-System memory in use after: 101.3 MB.
+Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3133.
-Total: 2.197000 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.680000 ms  DeleteObjects: 0.093500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3145.
+Total: 2.386600 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.817000 ms  DeleteObjects: 0.202800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Blinn_Phong.shader
-  artifactKey: Guid(800a794e4eea1a745bd42bfa785ef445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Blinn_Phong.shader using Guid(800a794e4eea1a745bd42bfa785ef445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3fecc4fa6c9ca2196166b008673ebc') in 0.078495 seconds 
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-ForwardRendering 1.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-ForwardRendering 1.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2eed89d6e6d6b03b8ce006b52ea02c') in 0.046103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.582039 seconds.
-  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_PixelLevel.shader
-  artifactKey: Guid(86374aff067233e4dabaac3f4afaa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_PixelLevel.shader using Guid(86374aff067233e4dabaac3f4afaa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332833ea63fd4c50ef6f2c383ebaacac') in 0.005663 seconds 
+  Time since last request: 11.386907 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230d02eac356c96d68b013508ee60221') in 0.004721 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 421.611247 seconds.
-  path: Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_VertexLevel.shader
-  artifactKey: Guid(858a6b93008b6ec4b94dad8af9b93282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Bookshaders/Chapter6/BlinnPhong/Specular_Phong_VertexLevel.shader using Guid(858a6b93008b6ec4b94dad8af9b93282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e836f0258ab4ff0c798ef5b130107') in 0.004309 seconds 
+  Time since last request: 25.850617 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8e6e182231ab181de9cf45bd81f672') in 0.007250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.060740 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f941257790ce1ba114e98426f1eac25') in 0.003646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.944202 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d1ef1d2908d8224586cf712d0b7226') in 0.006059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.179772 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e21162d6b33aa716d2ea226e64456f') in 0.003711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.977848 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b6ff82043161029f14fcc14bcf8013') in 0.004454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.166412 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4ebf36720b42b013676c0fbbc0d9b3') in 0.004686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.462698 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5d1b1853a2ca8a0a8a3fcff4b88c4d') in 0.003874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.097131 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9c79e24bb5e45ad35a77ba78d4c0c9') in 0.004363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.613229 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ccc107a911310a63db9784769bdb11') in 0.003841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.610987 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ecdfb76aa8cefb40dd366d7baf5b99') in 0.004655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.066329 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e71c2d660206a1ba157319ada0abc') in 0.004255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.754683 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59412b3f200639bb6c88ab97675ca2b1') in 0.005104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 413.750848 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader
+  artifactKey: Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/Chapter9-Shadow.shader using Guid(3dd28afb3fda40b48b8f5d0b92d25a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1b01518aee2e4ef7298aae2aa96b7c') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.269520 seconds.
+  path: Assets/Shaders/Bookshaders/Chapter9/ShaderBook_Chapter9_Shadow.mat
+  artifactKey: Guid(ebda6859ec4d1644ca36604a81185c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bookshaders/Chapter9/ShaderBook_Chapter9_Shadow.mat using Guid(ebda6859ec4d1644ca36604a81185c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756ad7ea7ead5a135402276f9f0b58ef') in 0.094301 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

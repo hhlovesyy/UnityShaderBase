@@ -26,7 +26,7 @@ Shader "ShaderBook/Chapter7/NormalMapTangentSpace"
             sampler2D _MainTex;
             float4 _MainTex_ST;
             sampler2D _BumpTex;
-            float4 _BumpTex_ST;  //无论是否两套纹理复用同一套纹理坐标,_ST都是需要的
+            float4 _BumpTex_ST;  
             float _BumpScale;
 
             struct a2v
