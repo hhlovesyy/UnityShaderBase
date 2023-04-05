@@ -56,6 +56,7 @@ Shader "ShaderBook/Chapter7/NormalMapTangentSpace"
                 //float3 binormal = cross(normalize(v.normal),normalize(v.tangent.xyz))*v.tangent.w; //y=cross(z,x),和z,x都垂直的方向有两个,w分量会决定采用哪一个
                 //float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
 
+                //在Unity里面float3x3矩阵是按照行优先的方式存储的
                 //or
                 TANGENT_SPACE_ROTATION;
                 o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
