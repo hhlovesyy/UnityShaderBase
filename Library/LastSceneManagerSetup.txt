@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Plugins/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+- path: Assets/Scenes/Chapter11/Chapter11_billboard.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
