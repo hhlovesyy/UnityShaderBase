@@ -70,10 +70,11 @@ Shader "ShaderBook/Chapter7/SingleTexture"
                 fixed3 halfLambert = dot(worldLightDir,i.worldNormal);
                 fixed3 diffuse = _LightColor0.rgb*albedo*max(0,dot(worldLightDir,i.worldNormal));
 
-                //half-lambert
+                //half-lambert open this
                 //fixed3 diffuse = _LightColor0.rgb*albedo*halfLambert;
-                
-                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz*albedo; //如果不乘albedo,则可以想象没有光照的地方应该是黑色的,而不会有纹理,不符合条件
+
+                //如果不乘albedo,可以想象到没有光照的地方应该是黑色的,而不会有纹理,不符合条件
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz*albedo; 
 
                 //half-lambert open this
                 //fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;

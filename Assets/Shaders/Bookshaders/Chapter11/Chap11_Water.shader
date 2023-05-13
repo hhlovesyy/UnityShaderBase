@@ -77,6 +77,48 @@ Shader "ShaderBook/Chapter11/Chap11_Water"
             }
             ENDCG
         }
+        //为了正确渲染阴影,加入一个ShadowCaster Pass,暂时懂得用法就行,原理后面研究
+        Pass
+        {
+            Tags {"LightMode"="ShadowCaster"}
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            #pragma multi_compile_shadowcaster
+            #include "UnityCG.cginc"
+
+            float _Magnitude;
+            float _Frequency;
+            float _InvWaveLength;
+            float _Speed;
+            
+            struct v2f
+            {
+                V2F_SHADOW_CASTER;  //定义阴影投射需要定义的变量
+            };
+
+            v2f vert(appdata_base v) //appdata_base 包括vertex,texcoord和normal
+            {
+                v2f o;
+                float4 offset;
+                offset.yzw = float3(0.0,0.0,0.0);
+                offset.x = sin(_Frequency * _Time.y + v.vertex.x * _InvWaveLength
+                    + v.vertex.y * _InvWaveLength + v.vertex.z * _InvWaveLength) * _Magnitude;
+                v.vertex = v.vertex+offset;
+
+                TRANSFER_SHADOW_CASTER_NORMALOFFSET(o)  //让unity自动帮我们完成剩下的工作(代码逻辑有时间再看)
+                return o;
+            }
+
+            fixed4 frag(v2f i):SV_Target
+            {
+                SHADOW_CASTER_FRAGMENT(i);  //让Unity自动完成阴影投射的部分,把结果输出到深度图和shadowmap当中
+            }
+            
+            ENDCG
+        }
     }
-    Fallback "Transparent/VertexLit"
+    
+    //Fallback "Transparent/VertexLit"
+    Fallback "VertexLit" //可以查看阴影
 }

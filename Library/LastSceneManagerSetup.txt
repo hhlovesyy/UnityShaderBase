@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Chapter11/Chapter11_billboard.unity
+- path: Assets/Scenes/Chapter12/Chap12_MotionBlur.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

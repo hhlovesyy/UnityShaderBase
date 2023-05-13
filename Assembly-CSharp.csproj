@@ -41,11 +41,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\PostEffectBase.cs" />
      <Compile Include="Assets\Scripts\ShaderBook\Chapter10\ProceduralTextureGeneration.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\MotionBlur.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\BrightnessSaturationAndContrast.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\GaussianBlur.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\EdgeDetection.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\Bloom.cs" />
+     <Compile Include="Assets\Shaders\OtherLearn\PostEffect\ScreenGlobalEffect.cs" />
+     <Compile Include="Assets\Scripts\ShaderBook\Chapter12\Translating.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\Shaders\Bookshaders\Chapter7\BumpTexture\NormalMapTangentSpace.shader" />
      <Folder Include="Assets\Materials\BookMaterials\Chapter7\MaskTexture" />
      <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
+     <None Include="Assets\Shaders\Bookshaders\Chapter12\Chap12_BrightnessSaturationAndContrast.shader" />
      <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
      <Folder Include="Assets\Materials\BookMaterials" />
      <Folder Include="Assets\Shaders\Bookshaders\Chapter6\BlinnPhong" />
@@ -55,6 +64,7 @@
      <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.imgui@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
+     <Folder Include="Assets\Shaders\Bookshaders\Chapter12" />
      <Folder Include="Assets\Materials\BookMaterials\Chapter10" />
      <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.animation@1.0.0" />
@@ -67,6 +77,7 @@
      <Folder Include="Assets\Materials\BookMaterials\Chapter11" />
      <Folder Include="Assets\Shaders\Bookshaders\Chapter9" />
      <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
+     <Folder Include="Assets\Scenes\Chapter13" />
      <None Include="Assets\Shaders\Bookshaders\Chapter11\Chap11_Billboard.shader" />
      <Folder Include="Assets\Shaders\Bookshaders\Chapter7" />
      <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
@@ -77,12 +88,15 @@
      <Folder Include="Assets\Shaders\Bookshaders\Chapter10" />
      <Folder Include="Assets\Shaders\Bookshaders" />
      <Folder Include="Assets\Models" />
+     <None Include="Assets\Shaders\Bookshaders\Chapter12\Chap12_Bloom.shader" />
      <None Include="Assets\Shaders\Bookshaders\TestShader\Test_DecalShader.shader" />
      <None Include="Assets\Shaders\Bookshaders\Common\BumpedSpecular.shader" />
      <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
      <None Include="Assets\Shaders\Bookshaders\Chapter6\Lambert\Diffuse_HalfLambert.shader" />
+     <None Include="Assets\Shaders\OtherLearn\PostEffect\ScreenGlobalEffect.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0" />
      <None Include="Assets\Shaders\Bookshaders\Chapter8\AlphaBlendZWrite.shader" />
+     <Folder Include="Assets\Scenes\Chapter14" />
      <Folder Include="Assets\Materials\BookMaterials\Chapter6\Diffuse" />
      <Folder Include="Assets\Shaders\OtherLearn\Decal" />
      <None Include="Assets\Shaders\OtherLearn\Decal\DecalShader.shader" />
@@ -103,7 +117,9 @@
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0" />
      <Folder Include="Assets\Materials\BookMaterials\Cubemap" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0" />
+     <Folder Include="Assets\Shaders\Bookshaders\Chapter13" />
      <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
+     <None Include="Assets\Shaders\Bookshaders\Chapter12\Chap12_EdgeDetection.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0" />
      <None Include="Assets\Shaders\OtherLearn\Decal\ScreenSpaceTex.shader" />
      <None Include="Assets\Shaders\Bookshaders\Chapter6\BlinnPhong\Specular_Phong_PixelLevel.shader" />
@@ -120,6 +136,7 @@
      <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.wind@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
+     <None Include="Assets\Shaders\Bookshaders\Chapter12\Chap12_MotionBlur.shader" />
      <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
@@ -136,11 +153,13 @@
      <None Include="Assets\Shaders\Bookshaders\Chapter10\Chapter10_Refraction.shader" />
      <Folder Include="Assets\Shaders\Bookshaders\Chapter6" />
      <Folder Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0" />
+     <Folder Include="Assets\Scenes\Chapter12" />
      <Folder Include="Library\PackageCache\com.unity.modules.ui@1.0.0" />
      <None Include="Assets\Shaders\Bookshaders\Common\BumpedDiffuse.shader" />
      <None Include="Assets\Shaders\Bookshaders\Chapter7\RampTexture\RampTexture.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0" />
      <None Include="Assets\Shaders\Bookshaders\Chapter8\AlphaTestTwoSided.shader" />
+     <Folder Include="Assets\Textures\Chapter12" />
      <None Include="Assets\Shaders\Bookshaders\TestShader\Test_BumpTexTangentSpace.shader" />
      <None Include="Assets\Shaders\Bookshaders\Chapter9\Chapter9-ForwardRendering.shader" />
      <None Include="Assets\Shaders\Bookshaders\Chapter11\Chap11_Water.shader" />
@@ -151,6 +170,7 @@
      <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
      <Folder Include="Assets\Textures\Environment" />
      <None Include="Assets\Shaders\Bookshaders\Chapter10\Chapter10_Mirror.shader" />
+     <Folder Include="Assets\Scripts\ShaderBook\Chapter12" />
      <Folder Include="Assets\Models\ShaderBooks" />
      <Folder Include="Assets\Textures\Chapter11" />
      <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
@@ -160,6 +180,7 @@
      <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\Shaders\Bookshaders\Chapter7\RampTexture\Test_RampTexWithMainTex.shader" />
+     <None Include="Assets\Shaders\Bookshaders\Chapter12\Chap12_GaussianBlur.shader" />
      <Folder Include="Assets\Textures\Chapter10\RenderTexture" />
      <None Include="Assets\Shaders\Bookshaders\Chapter10\Chapter10_Reflection.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0" />
@@ -191,6 +212,7 @@
      <None Include="Assets\Shaders\Bookshaders\Chapter8\AlphaTest.shader" />
      <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
      <Folder Include="Assets\Materials\BookMaterials\Chapter7\BumpTexture" />
+     <Folder Include="Assets\Shaders\OtherLearn\PostEffect" />
      <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
      <Folder Include="Assets\Materials\BookMaterials\Chapter6" />
      <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
